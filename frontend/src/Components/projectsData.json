@@ -1,0 +1,38 @@
+[
+    {
+        "logo": "client.png",
+        "tech": ["React.js", "Node.js", "Express", "MongoDB", "Postman", "Tailwind CSS"],
+        "title": "EduTech Client",
+        "description": "In the Client Portal, users can seamlessly browse through available courses, accessing detailed descriptions and pricing information. Upon purchase, they gain immediate access to course lectures, all within the same intuitive platform."
+    },
+    {
+        "logo": "admin.png",
+        "tech": ["React.js", "Node.js", "Express", "MongoDB", "Postman", "Tailwind CSS"],
+        "title": "EduTech Admin",
+        "description": "Admins have the authority to effortlessly upload, oversee, and refine courses, fostering a dynamic and adaptable learning atmosphere."
+    },
+    {
+        "logo": "payb.png",
+        "tech": ["React.js", "Node.js", "Express", "MongoDB", "Postman", "Tailwind CSS"],
+        "title": "PayBuddy",
+        "description": "Created an application where users can send dummy money to their friends, who receive it upon signup, adding a touch of a Payment application experience."
+    },
+    {
+        "logo": "todo.jpg",
+        "tech": ["React.js", "Node.js", "Express", "MongoDB", "Postman"],
+        "title": "Task Manager",
+        "description": "Crafted a comprehensive CRUD application empowering users to seamlessly manage their daily tasks. With features for creating, editing, viewing, and deleting tasks, users can efficiently organize their day-to-day activities."
+    },
+    {
+        "logo": "meme.png",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "title": "MemeVerse",
+        "description": "Introducing a simple meme website akin to Giphy, leveraging Rapid API to fetch GIFs that'll have you rolling in laughter."
+    },
+    {
+        "logo": "music.png",
+        "tech": ["React.js", "Node.js", "Express", "MongoDB", "Postman"],
+        "title": "JioSaavn",
+        "description": "Behold a complete MERN stack marvel! Users can dive into a musical journey, searching and indulging in their favorite songs, all within a single immersive platform."
+    }
+]
