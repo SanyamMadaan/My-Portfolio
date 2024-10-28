@@ -18,11 +18,11 @@ const Skills = () => {
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-center mb-10">Skills</h1>
         <p className="text-center text-slate-300 md:text-3xl text-xl lg:text-3xl mb-10">Here are some of my skills on which I have been working on for the past 2 years.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div key={index} className="border-solid border-4 border-purple-600 rounded-lg p-6 bg-zinc-900">
               <h2 className="text-3xl font-semibold text-center mb-5">{skill.title}</h2>
-              <div className="flex flex-wrap gap-2 justify-center">
+              <div className="flex flex-wrap gap-2">
                 {skill.skills.map((item, idx) => (
                   <div key={idx} className="rounded-full px-2 py-2  text-white text-xl">{item.name}</div>
                 ))}

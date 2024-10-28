@@ -2,8 +2,8 @@ import logo from './Images/logo.png'
 import cbse from './Images/cbse.avif'
 export default function Education(){
     return(<div id="education" className="px-4 m-2">
-        <h1 className="mt-20 mb-10 text-center text-4xl font-medium">Education</h1>
-        <h2 className="text-xl text-center">My education has been a journey of self-discovery and growth.My educational details are as follows.</h2>
+        <h1 className="mt-20 mb-10 text-center text-5xl font-bold">Education</h1>
+        <h2 className="text-2xl text-center">My education has been a journey of self-discovery and growth.My educational details are as follows.</h2>
         <div className="my_education mt-20 mb-5 flex flex-col">
        
         <div className='lg:w-1/2 border-2 bg-zinc-900 border-purple-600 p-3  rounded-lg my-10  '>
@@ -18,10 +18,10 @@ export default function Education(){
                 </div> 
             </div>
             <h2 className='p-2 text-xl ml-0.5'>
-                Grade: 9.1 CGPA
+                Grade: 9.06 CGPA
             </h2>
             <p className='text-xl p-2'>
-            I am currently pursuing a Bachelor's degree in Computer Application at Chitkara University. I have completed 4 semesters and have a CGPA of 9.1 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems.
+            A Final Year student at Chitkara University enrolled in Bachelor's of Computer Application with a CGPA of 9.06
             </p>
         </div>
 
@@ -31,8 +31,7 @@ export default function Education(){
                 <div>
                 <img className='w-full h-40 rounded-md' src={cbse}></img>
                 </div>
-                <div className='ml-5'>
-                <p className='text-3xl mb-2'>SpringDales Public School</p>
+                <div>
                 <p className='text-2xl mb-2'>CBSE(12th)</p>
                 <p className='text-xl mb-2'>2021-2022</p>
                 </div> 
@@ -41,7 +40,7 @@ export default function Education(){
                 Grade:85%
             </h2>
             <p className='text-xl p-2'>
-            I have completed my 12th class from CBSE boards and scored 85 percentage
+            Completed 12Th Class from CBSE in Commerce with a percentage of 85
             </p>
         </div>
         </div>

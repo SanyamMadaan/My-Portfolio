@@ -12,7 +12,7 @@ const About = () => {
                     </p>
                     <br />
                     <div className="flex justify-center lg:justify-start">
-                        <a target="_blank" href="https://drive.google.com/file/d/1IxFjJqdXgg-8hcO8s5N_rKCluoD1ymEp/view?usp=drivesdk">
+                        <a target="_blank" href="https://drive.google.com/file/d/157UdGclSg0KrLUdXELS8iQj1prNcPTOh/view?usp=drivesdk">
                             <button className="bg-gradient-to-r from-pink-500 to-indigo-600 border-2 border-white p-2 rounded-md mb-2">Check Resume</button>
                         </a>
                     </div>
